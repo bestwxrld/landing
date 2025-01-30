@@ -1,0 +1,9 @@
+stages:          
+  - deploy
+
+deploy-job:      
+  stage: deploy  
+  environment: production
+  script:
+    - echo "Deploying landing..."
+    - echo "Application successfully deployed."
