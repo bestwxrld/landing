@@ -9,18 +9,17 @@ const LandingPage2 = () => {
         position: "relative",
         background: "black",
         display: "flex",
-        justifyContent: "center", // Горизонтальное центрирование
-        
+        justifyContent: "center",
+        alignItems: "center",
         margin: "0 auto",
       }}
     >
-      {/* Blurred Circles */}
       <div
         style={{
-          width: "225px",
-          height: "212px",
-          left: "1809px",
-          top: "351px",
+          width: "10%",
+          height: "20%",
+          left: "73%",
+          top: "45%",
           position: "absolute",
           background: "rgba(42, 56, 67, 0.65)",
           boxShadow: "4px 4px 4px",
@@ -30,10 +29,10 @@ const LandingPage2 = () => {
       ></div>
       <div
         style={{
-          width: "300px",
-          height: "273px",
-          left: "1670px",
-          top: "176px",
+          width: "15%",
+          height: "30%",
+          left: "65%",
+          top: "25%",
           position: "absolute",
           background: "rgba(44, 70, 90, 0.65)",
           boxShadow: "4px 4px 4px",
@@ -43,10 +42,10 @@ const LandingPage2 = () => {
       ></div>
       <div
         style={{
-          width: "192px",
-          height: "185px",
-          left: "580px",
-          top: "211px",
+          width: "10%",
+          height: "20%",
+          left: "19%",
+          top: "16%",
           position: "absolute",
           background: "rgba(42, 56, 67, 0.6)",
           boxShadow: "4px 4px 4px",
@@ -56,10 +55,10 @@ const LandingPage2 = () => {
       ></div>
       <div
         style={{
-          width: "192px",
-          height: "185px",
-          left: "680px",
-          top: "331px",
+          width: "10%",
+          height: "20%",
+          left: "23%",
+          top: "30%",
           position: "absolute",
           background: "rgba(234, 234, 234, 0.7)",
           boxShadow: "4px 4px 4px",
@@ -69,10 +68,10 @@ const LandingPage2 = () => {
       ></div>
       <div
         style={{
-          width: "300px",
-          height: "273px",
-          left: "580px",
-          top: "467px",
+          width: "15%",
+          height: "30%",
+          left: "15%",
+          top: "43%",
           position: "absolute",
           background: "rgba(197, 172, 138, 0.7)",
           boxShadow: "4px 4px 4px",
@@ -81,30 +80,31 @@ const LandingPage2 = () => {
         }}
       ></div>
 
-      {/* Content Cards */}
       <div
         style={{
-          width: "842px",
-          height: "276px",
+          width: "40%",
+          height: "25%",
           position: "absolute",
           background: "#0C0C0C",
           borderRadius: "20px",
           border: "1px #555555 solid",
+          top: "10%",
+          left: "30%",
         }}
       >
         <div
           style={{
-            width: "840px",
-            height: "274.67px",
-            position: "absolute",
+            width: "100%",
+            height: "100%",
+            position: "relative",
           }}
         >
           <div
             style={{
-              width: "38px",
-              height: "140.48px",
-              left: "72.96px",
-              top: "61.24px",
+              width: "10%",
+              height: "50%",
+              left: "10%",
+              top: "20%",
               position: "absolute",
               display: "flex",
               flexDirection: "column",
@@ -114,10 +114,10 @@ const LandingPage2 = () => {
             <div
               style={{
                 color: "white",
-                fontSize: "31.84px",
+                fontSize: "2vw",
                 fontFamily: "Inter",
                 fontWeight: "700",
-                lineHeight: "67.20px",
+                lineHeight: "4vw",
               }}
             >
               01
@@ -125,44 +125,44 @@ const LandingPage2 = () => {
           </div>
           <div
             style={{
-              left: "261px",
-              top: "61.34px",
+              left: "25%",
+              top: "20%",
               position: "absolute",
               color: "white",
-              fontSize: "31.21px",
+              fontSize: "2vw",
               fontFamily: "Inter",
               fontWeight: "700",
               textTransform: "uppercase",
-              lineHeight: "67.20px",
+              lineHeight: "4vw",
             }}
           >
             Подход
           </div>
           <div
             style={{
-              width: "498px",
-              left: "261px",
-              top: "120.34px",
+              width: "70%",
+              left: "25%",
+              top: "50%",
               position: "absolute",
               color: "white",
-              fontSize: "18.57px",
+              fontSize: "1vw",
               fontFamily: "Inter",
               fontWeight: "300",
-              lineHeight: "39.20px",
+              lineHeight: "2.5vw",
             }}
           >
-            Наш устоявшийся базис - давать больше чем брать, выполнять задачи
-            на 110%!
+            Наш устоявшийся базис - давать больше чем брать, выполнять задачи на 110%!
           </div>
         </div>
       </div>
 
       <div
         style={{
-          width: "842px",
-          height: "276px",
+          width: "40%",
+          height: "25%",
           position: "absolute",
-          top: "310px",
+          top: "40%",
+          left: "30%",
           background: "#0C0C0C",
           borderRadius: "20px",
           border: "1px #555555 solid",
@@ -171,19 +171,17 @@ const LandingPage2 = () => {
       >
         <div
           style={{
-            width: "667px",
-            height: "303.67px",
-            left: "1px",
-            top: "0.66px",
-            position: "absolute",
+            width: "100%",
+            height: "100%",
+            position: "relative",
           }}
         >
           <div
             style={{
-              width: "42px",
-              height: "169.48px",
-              left: "72.96px",
-              top: "61.24px",
+              width: "10%",
+              height: "50%",
+              left: "10%",
+              top: "20%",
               position: "absolute",
               display: "flex",
               flexDirection: "column",
@@ -193,10 +191,10 @@ const LandingPage2 = () => {
             <div
               style={{
                 color: "white",
-                fontSize: "31.84px",
+                fontSize: "2vw",
                 fontFamily: "Inter",
                 fontWeight: "700",
-                lineHeight: "67.20px",
+                lineHeight: "4vw",
               }}
             >
               02
@@ -204,15 +202,15 @@ const LandingPage2 = () => {
           </div>
           <div
             style={{
-              left: "264px",
-              top: "61.34px",
+              left: "25%",
+              top: "20%",
               position: "absolute",
               color: "white",
-              fontSize: "31.21px",
+              fontSize: "2vw",
               fontFamily: "Inter",
               fontWeight: "700",
               textTransform: "uppercase",
-              lineHeight: "67.20px",
+              lineHeight: "4vw",
               whiteSpace: "nowrap",
               overflow: "hidden",
               textOverflow: "ellipsis",
@@ -222,15 +220,15 @@ const LandingPage2 = () => {
           </div>
           <div
             style={{
-              width: "498px",
-              left: "262px",
-              top: "120.34px",
+              width: "75%",
+              left: "25%",
+              top: "50%",
               position: "absolute",
               color: "white",
-              fontSize: "18.57px",
+              fontSize: "1vw",
               fontFamily: "Inter",
               fontWeight: "300",
-              lineHeight: "39.20px",
+              lineHeight: "2.5vw",
               wordWrap: "break-word",
               whiteSpace: "normal",
             }}
@@ -242,10 +240,11 @@ const LandingPage2 = () => {
 
       <div
         style={{
-          width: "842px",
-          height: "276px",
+          width: "40%",
+          height: "25%",
           position: "absolute",
-          top: "620px",
+          top: "70%",
+          left: "30%",
           background: "#0C0C0C",
           borderRadius: "20px",
           border: "1px #555555 solid",
@@ -253,19 +252,17 @@ const LandingPage2 = () => {
       >
         <div
           style={{
-            width: "853px",
-            height: "250.67px",
-            left: "1px",
-            top: "0.66px",
-            position: "absolute",
+            width: "100%",
+            height: "100%",
+            position: "relative",
           }}
         >
           <div
             style={{
-              width: "43px",
-              height: "169.48px",
-              left: "72.96px",
-              top: "61.24px",
+              width: "10%",
+              height: "50%",
+              left: "10%",
+              top: "20%",
               position: "absolute",
               display: "flex",
               flexDirection: "column",
@@ -275,10 +272,10 @@ const LandingPage2 = () => {
             <div
               style={{
                 color: "white",
-                fontSize: "31.84px",
+                fontSize: "2vw",
                 fontFamily: "Inter",
                 fontWeight: "700",
-                lineHeight: "67.20px",
+                lineHeight: "4vw",
               }}
             >
               03
@@ -286,45 +283,43 @@ const LandingPage2 = () => {
           </div>
           <div
             style={{
-              left: "261px",
-              top: "61.34px",
+              left: "25%",
+              top: "20%",
               position: "absolute",
               color: "white",
-              fontSize: "31.21px",
+              fontSize: "2vw",
               fontFamily: "Inter",
               fontWeight: "700",
               textTransform: "uppercase",
-              lineHeight: "67.20px",
+              lineHeight: "4vw",
             }}
           >
             Развитие
           </div>
           <div
             style={{
-              width: "498px",
-              left: "261px",
-              top: "112.34px",
+              width: "75%",
+              left: "25%",
+              top: "50%",
               position: "absolute",
               color: "white",
-              fontSize: "18.57px",
+              fontSize: "1vw",
               fontFamily: "Inter",
               fontWeight: "300",
-              lineHeight: "39.20px",
+              lineHeight: "2.5vw",
             }}
           >
-            Развиваться - быть в непрерывном поиске возможностей, использовать
-            передовые инструменты, и полученный опыт.
+            Развиваться - быть в поиске возможностей, использовать передовые инструменты, и полученный опыт.
           </div>
         </div>
       </div>
 
-      {/* Images */}
       <img
         style={{
-          width: "522.29px",
-          height: "237.79px",
-          left: "1600.18px",
-          top: "137px",
+          width: "27%",
+          height: "20%",
+          left: "67%",
+          top: "26%",
           position: "absolute",
           transform: "rotate(25.18deg)",
           transformOrigin: "0 0",
@@ -334,10 +329,10 @@ const LandingPage2 = () => {
       />
       <img
         style={{
-          width: "584px",
-          height: "440px",
-          left: "920.18px",
-          top: "127px",
+          width: "30%",
+          height: "40%",
+          left: "35%",
+          top: "20%",
           position: "absolute",
           transform: "rotate(339.41deg) scaleX(-1)",
           transformOrigin: "0 0",
