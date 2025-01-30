@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import LandingPage from './pages/LandingPage';
 import LandingPage2 from './pages/LandingPage2';
 import LandingPage3 from './pages/LandingPage3';
-import LandingPage4 from './pages/LandingPage4'; // Новый импорт
+import LandingPage4 from './pages/LandingPage4'; 
 
 function App() {
   const { ref: ref1, inView: inView1 } = useInView({
