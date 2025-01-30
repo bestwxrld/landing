@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## How to use
+
+Use with npm or docker
+
+Clone repo:
+```
+    git clone https://gitlab.moxitech.ru/moxitech.team/entercodelanding
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
