@@ -12,7 +12,6 @@ function LandingPage() {
     setDropdownVisible(false);
   };
 
-  // Закрытие выпадающего списка при клике вне его области
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {

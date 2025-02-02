@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import LandingPage from './pages/LandingPage';
 import LandingPage2 from './pages/LandingPage2';
 import LandingPage3 from './pages/LandingPage3';
-import LandingPage4 from './pages/LandingPage4'; 
+import LandingPage4 from './pages/LandingPage4';
 
 function App() {
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+  }, []);
+
   const { ref: ref1, inView: inView1 } = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -53,7 +57,7 @@ function App() {
         ref={ref4}
         className={`transition-opacity duration-1000 ${inView4 ? 'opacity-100' : 'opacity-0'}`}
       >
-        <LandingPage4 /> 
+        <LandingPage4 />
       </div>
     </div>
   );
