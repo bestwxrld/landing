@@ -1,9 +1,23 @@
-stages:          
+stages:          # List of stages for jobs, and their order of execution
   - deploy
+  - log
 
-deploy-job:      
-  stage: deploy  
+deploy-job:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
   environment: production
+  
   script:
-    - echo "Deploying landing..."
+    - echo "Deploying application..."
+    - apk add sshpass
+    - sshpass -p 'moxitech' ssh -o StrictHostKeyChecking=no moxitech@moxitech.ru 'cd /home/moxitech/OpenServerProject/landing && git pull https://moxitech:tele2nasdZ@gitlab.moxitech.ru/enter.code/landing.git && docker-compose build && docker-compose up -d --force-recreate'
     - echo "Application successfully deployed."
+
+
+log-job:      
+  stage: log    
+  script:
+    - echo "Logging application..."
+    - apk add sshpass
+    - sleep 10
+    - sshpass -p 'moxitech' ssh -o StrictHostKeyChecking=no moxitech@moxitech.ru 'cd /home/moxitech/OpenServerProject/landing && docker-compose logs'
+    - echo "Application successfully delegated."
